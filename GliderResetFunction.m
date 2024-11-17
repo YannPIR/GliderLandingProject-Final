@@ -7,7 +7,7 @@ function [InitialObservation, InitialState] = GliderResetFunction()
 % X
 X0 = 0;
 % Y rand
-Y0 = 70;% + randi([-1,2])*10;
+Y0 = 70 + randi([-1,2])*10;
 % V rand
 V0 = 10 + (rand-1/2)*10;
 % theta rand
